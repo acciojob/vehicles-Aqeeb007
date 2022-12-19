@@ -4,7 +4,14 @@ public class Boat implements WaterVehicle {
     String name;
     int capacity;
 
+    public Boat() {
 
+    }
+
+    public Boat(String name, int capacity) {
+        name = name;
+        capacity = capacity;
+    }
 
     @Override
     public String getVehicleName() {
